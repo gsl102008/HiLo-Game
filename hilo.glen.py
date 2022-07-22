@@ -7,13 +7,13 @@ points = 300
 while points > 0:
 
     # Get current card
-    current_card = int(input("Current card: "))
+    current_card = int(input("The card is: "))
 
     # Get player guess for next card
-    guess = input("Will the next card be higher or lower? (h/l): ")
+    guess = input("Higher or lower? (h/l): ")
 
     # Get next card
-    next_card = int(input("Next card: "))
+    next_card = int(input("Next card was: "))
 
     # If player guessed correctly, award 100 points
     if (guess == "h" and next_card > current_card) or \
@@ -27,10 +27,10 @@ while points > 0:
         points -= 75
 
     # Print current points
-    print("Your current points:", str(points))
+    print("Your score is:", str(points))
 
     # Check if player wants to keep playing
-    keep_playing = input("Do you want to keep playing? (y/n): ")
+    keep_playing = input("Play again? (y/n): ")
 
     # If player does not want to keep playing, end game
     if keep_playing != "y":
