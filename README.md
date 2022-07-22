@@ -1,1 +1,2 @@
 # HiLo-Game
+HiLo is a card game where you start with 300 points. The player starts with guessing a card. Cards are represented as a number from 1 to 13. The current card is displayed. The player guesses if the next one will be higher or lower. The next card is displayed. The player earns 100 points if they guessed right. The player loses 75 points if they guess wrong. If a player reaches 0 points the game is over. If a player has more than 0 points then they can decide if they want to keep playing. If a player decides not to play again the game is over.
